@@ -1,5 +1,7 @@
+@import "bourbon/bourbon";
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+
 
 @media screen and (max-width: 600px) {
 	div.logo.boldthemes_logo_text {
@@ -31,7 +33,7 @@
 		margin-bottom: 10px;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		section div.servicesItem {
 		margin-top: 12px !important;
 		margin-bottom: 10px;
@@ -65,19 +67,19 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.sTxt .footer section.boldSection .servicesItem {
 			width: 142px !important;
 		}
 	} 
 	
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.footer section.boldSection span {
 			text-align: left !important;
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.footer section.boldSection span.headline {
 			text-align: center !important;
 			width: 142px;
@@ -91,7 +93,7 @@
 		text-align: left !important;
 	}
 	
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.footer section.boldSection .servicesItem {
 			text-align: left !important;
     		display: block;
@@ -100,13 +102,13 @@
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		h2 span.headline {
 			width: 200px !important;
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.footer section.boldSection .servicesItem .btSubTitle {
 			text-align: center !important;
 			line-height: 1.6;
@@ -209,7 +211,7 @@
 		text-align: left !important;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		body:not(.btHalfPage) .rowItem.animate:nth-child(2) div.rowItemContent .headline {
 		width: 250px !important;
 		}
@@ -237,41 +239,41 @@
 	}
 } 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 557px) {
 		.rowItem.btDoublePadding .rowItemContent {
 			padding: 20px 20px !important;
-			display: flex;
-   			flex-direction: column;
-    		align-items: center;
-   			justify-content: center;
+			@include display(flex);
+   			@include flex-direction(column);
+    		@include align-items(center);
+   			@include justify-content(center);
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.rowItem.btDoublePadding .rowItemContent .servicesItem  .btServicesAccent4 .btIcoBigSizeIcon { 
 			width: 229px !important
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.servicesItem  .btServicesAccent4 .btIcoBigSizeIcon {
 			width: 229px !important;
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 			#bt_section5b9b30486d5ee > div > div > div > div > div > div.rowItem.col-md-4.col-ms-12.btTextLeft.animate.animate-fadein.animate-moveleft.btMiddleVertical.btDoublePadding.animated > div > div:nth-child(6)   {
 				width: 229px !important;
 			}
 		} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		#bt_section5b9b30486d5ee > div > div > div > div > div > div.rowItem.col-md-4.col-ms-12.btTextLeft.animate.animate-fadein.animate-moveleft.btMiddleVertical.btDoublePadding.animated > div > div:nth-child(8) {
 			width: 229px !important;
 		}
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 	 	#bt_section5b9b31326966d > div > div > div > div > div > div.rowItem.col-md-4.col-ms-12.btTextLeft.animate.animate-fadein.animate-moveleft.btMiddleVertical.btDoublePadding.animated > div > div:nth-child(6) {
 	 		display: none !important
 	 	}
@@ -281,19 +283,19 @@
 		font-family: 'Oswald', sans-serif;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 		.btText h1 span  {
 			width: 250px !important;
 		}
 	} 
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 			.btText:first-child {
 				width: 100% !important;
 			}
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 557px) {
 			.btText:nth-child(2) {
 				width: 100% !important;
 			}

@@ -6,7 +6,7 @@
   }
 
   section.boldSection.btParallax {
-    /* height: 250px; */
+    height: 250px;
   }
 
   .wBackground.cover {
@@ -63,7 +63,7 @@
 }
 @media screen and (max-width: 600px) {
   section.boldSection:not(:first-child) span.headline {
-/*     text-align: center !important; */
+    text-align: center !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -246,12 +246,12 @@
 }
 @media screen and (max-width: 600px) {
   body:not(.btHalfPage) .rowItem.animate:nth-child(2) div.rowItemContent .headline {
-    /* text-align: left; */
+    text-align: left !important;
   }
 }
 @media screen and (max-width: 600px) and (max-width: 557px) {
   body:not(.btHalfPage) .rowItem.animate:nth-child(2) div.rowItemContent .headline {
-   /* width: 250px; */
+    width: 250px !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -378,5 +378,4 @@ h2 span.headline {
   color: #f3eaea !important;
 }
 
-
-/*# sourceMappingURL=new.css.map */
+/*# sourceMappingURL=_new.css.map */
