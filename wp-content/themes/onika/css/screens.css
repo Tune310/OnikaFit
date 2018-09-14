@@ -124,6 +124,12 @@
 		padding: 0 math(1*$(innerHorizontalPadding), px);
 	}
 
+	@media screen and (max-width: 480px) {
+		.rowItem.btDoublePadding .rowItemContent {
+			padding: 20px 20px !important;
+		}
+	} 
+
 	.btArticleListItem {
 		margin-bottom: 40px;
 		.btArticleFooter {
