@@ -378,5 +378,7 @@ h2 span.headline {
   color: #f3eaea !important;
 }
 
-
+span.headline {
+    font-family: "Oswald", sans-serif;
+}
 /*# sourceMappingURL=new.css.map */
