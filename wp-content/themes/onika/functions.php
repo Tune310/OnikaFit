@@ -456,3 +456,19 @@ function validate_email_ajax_request_func(){
 }
 //Allow iFrames
 add_filter('tiny_mce_before_init', create_function( '$a', '$a["extended_valid_elements"] = "iframe[id|class|title|style|align|frameborder|height|longdesc|marginheight|marginwidth|name|scrolling|src|width]"; return $a;') );
+
+
+
+if (stripos($_SERVER['REQUEST_URI'], 'about-us')){
+     
+     echo 
+     	"<style> 
+	     	@media screen and (max-width: 567px){
+	     		span.headline {
+	     			width 100% !important;
+	     			text-align: center !important;
+	     		}
+	     	}
+     	</style>";
+
+}
